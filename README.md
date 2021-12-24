@@ -1,7 +1,7 @@
 
 # Portifolio / Personal Website
 
-My personal Portifolio, Made in HTML, Css and Javascript only. 
+My personal Portifolio, Made in HTML, CSS and Javascript only. 
 
 
 ## Deployment
@@ -24,4 +24,4 @@ Use the command below to clone the template:
 ## Screenshots
 
 ![Home Page](./screenshots/1.png)
-
+![About Page](./screenshots/2.png)
