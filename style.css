@@ -177,7 +177,7 @@ nav :active {
 }
 
 .project .header.satu {
-  background-image: url(img/project/project1.jpg);
+  background-image: url(./screenshots/1.png);
   background-position: center;
   background-size: cover;
 }
