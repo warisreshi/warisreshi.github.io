@@ -6,7 +6,7 @@ My personal Portifolio, Made in HTML, CSS and Javascript only.
 
 ## Deployment
 
-**Feel free to use my template, but please give me credit.** 
+**Feel free to use my template, but please give credit to @fadlimagfirli and @warisreshi.** 
 
 Use the command below to clone the template:
 ```bash
