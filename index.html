@@ -33,23 +33,26 @@
 	
 	<!-- NAVBAR -->
 	<nav>
-		<h1 class="brand">WARIS ABASS</h1>
-		<ul class="navigasi">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#project">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
+		<h1 class="logo_navbar">WARIS ABASS</h1>
+		<ul class="menu">
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#project">Projects</a></li>
+		  <li><a href="#contact" target="blank">Contact</a></li>
 		</ul>
-	</nav>
+	  </nav>
 
 	<div class="container">
 		<!-- Section1.Home Start -->
 		<section class="home">
 			<div class="welcome">
-				<p>Hey, I am</p>
-				<h1 class="brand">WARIS<br>ABASS</h1>
-				<br>
-				<p class="keterangan"></p>
+				<h2>Hello, I am</h2>
+				<h1 class="brand">Waris Abass</h1>
+				<p class="ketengran">
+					Web Developer<br>
+					Programmer<br>
+					Student
+				</p>
 				<div class="social">
 					<a href="https://www.instagram.com/warisreshi" target="_blank"><i class="fab fa-instagram"></i></a>
 					<a href="https://github.com/warisreshi target="_blank"><i class="fab fa-github"></i></a>
@@ -57,7 +60,7 @@
 				</div>
 			</div>
 			<div class="gambar">
-				<img src="img/Developer.gif" alt="">
+				<img src="./img/home.gif" alt="">
 			</div>
 		</section>
 		<!-- Section1.Home End -->
@@ -106,6 +109,15 @@
 						<a href="https://warisreshi.github.io/glassmorphism_registerpage/" target="_blank"><button>Demo	<i class="fas fa-arrow-right"></i></button></a>
 					</div>
 				</div>
+			</div>
+			<div class="card" data-aos="zoom-in" data-aos-delay="150">
+				<div class="header empat"></div>
+				<div class="judul">
+					<h4>Glassmorphism Navbar</h4>
+					<a href="https://github.com/warisreshi/glassmorphism_navbar/" target="_blank"><button>Source Code	<i class="fas fa-arrow-right"></i></button></a>
+					<a href="https://warisreshi.github.io/glassmorphism_navbar/" target="_blank"><button>Demo	<i class="fas fa-arrow-right"></i></button></a>
+				</div>
+			</div>
 			</div>
 		</section>
 		<!-- AKHIR SECTION 3 PROJECT -->
@@ -157,7 +169,6 @@
 
 		// HOME
 		gsap.from('.home .welcome p', {duration: 2.5, opacity: 0, x: -150, ease: 'back'})
-		gsap.to('.home .welcome .keterangan', {text: 'Web Developer.<br>Photographer.<br>Student.', duration: 2, delay: 1.5})
 		gsap.from('.home .welcome .brand', {duration: 2.5, opacity: 0, delay: 0.5, x: 150, ease: 'back'})
 		gsap.from('.home .welcome .social', {duration: 0.5, opacity: 0, delay: 3, y: 50, })
 		gsap.from('.home .gambar', {duration: 1, opacity: 0, delay: 0.8, y: 50})
