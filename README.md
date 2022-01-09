@@ -27,3 +27,4 @@ Use the command below to clone the template:
 ## Screenshots
 
 ![Home Page](./screenshots/project1.png)
+
