@@ -28,6 +28,7 @@ nav {
   position: fixed;
   z-index: 999;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -160,7 +161,7 @@ nav :active {
   padding: 6rem 150px 0 150px;
   margin-top: -5px;
   margin-bottom: -2px;
-  background-color: rgb(234, 247, 250);
+
 }
 
 .project h2 {
@@ -255,31 +256,48 @@ nav :active {
   margin-bottom: 30px;
 }
 
-input[type='text'],
-select,
-textarea {
+
+#name, #email{
   width: 100%;
-  padding: 12px;
-  background-color: #fafafa;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  padding: 12px 12px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  font-family: 'Inter', sans-serif;
   margin-top: 6px;
   margin-bottom: 16px;
+  font-size: 15px;
+  opacity: .7;
+}
+#message{
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 10px 10px;
+  font-family: 'Inter', sans-serif;
   resize: vertical;
+  font-size: 15px;
+  border: .1px solid #000;
+  border-radius: 10px;
+  opacity: .7;
 }
-
-input[type='submit'] {
-  background-color: royalblue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+#name:hover, #email:hover, #message:hover{
+  opacity: 1.0;
+}
+#submit{
+  width: 100%;
+  padding: 10px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border:none;
+  background: rgb(, 182, 255);
+}
+#submit:hover{
+  background:rgb(60, 161, 255) ;
   cursor: pointer;
-}
-
-input[type='submit']:hover {
-  background-color: rgb(76, 121, 255);
+  color: #fff;
 }
 /* AKHIR SECTION 4 CONTACT */
 
@@ -390,4 +408,8 @@ footer i:hover {
 }
 p{
   font-family: 'Inter', sans-serif;
+}
+h4{
+  font-family:'Inter', sans-serif;
+  font-weight: 400 !important;
 }
