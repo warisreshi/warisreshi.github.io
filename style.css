@@ -292,7 +292,8 @@ nav :active {
   font-weight: 700;
   border-radius: 10px;
   border:none;
-  background: rgb(, 182, 255);
+  color: #fff;
+  background: rgb(60, 182, 255);
 }
 #submit:hover{
   background:rgb(60, 161, 255) ;
