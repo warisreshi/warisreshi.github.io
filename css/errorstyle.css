@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: -200px;
+}
+.header{
+    font-size: 10em;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: -10px;
+    text-align: center;
+    color: rgb(76, 118, 241);
+}
+.sub_header{
+    font-size: 2em;
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.actionbuttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.actionbuttons a{
+    padding: 15px 15px;
+    border: 2px solid rgb(76, 118, 241);
+    border-radius:10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(76, 118, 241);
+}
+.actionbuttons a:hover{
+    background:rgb(76, 118, 241);
+    color: white;
+}
+.btn_1{
+    margin-right: 30px;
+}
