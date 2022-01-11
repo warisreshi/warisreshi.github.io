@@ -188,27 +188,27 @@ nav :active {
 }
 
 .project .header.satu {
-  background-image: url(./screenshots/project1.png);
+  background-image: url(../screenshots/project1.png);
   background-position: center;
   background-size: cover;
 }
 .project .header.dua {
-  background-image: url(./screenshots/project2.png);
+  background-image: url(../screenshots/project2.png);
   background-position: center;
   background-size: cover;
 }
 .project .header.tiga {
-  background-image: url(./screenshots/project3.png);
+  background-image: url(../screenshots/project3.png);
   background-position: center;
   background-size: cover;
 }
 .project .header.empat {
-  background-image: url(./screenshots/project4.png);
+  background-image: url(../screenshots/project4.png);
   background-position: center;
   background-size: cover;
 }
 .project .header.lima {
-  background-image: url(./screenshots/project5.png);
+  background-image: url(../screenshots/project5.png);
   background-position: center;
   background-size: cover;
 }
